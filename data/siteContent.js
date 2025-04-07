@@ -28,10 +28,10 @@ const agentDetails = {
   address: "ewrwerwer",
   /** @type {string} Name of the brokerage the agent is affiliated with. */
   brokerageName: "ewrewr",
-  /** @type {string} File path for the standard agent headshot. Relative to /public. */
-  headshotImageSrc: "/images/agent/1255330.jpg", 
-  /** @type {string} File path for the agent headshot with no background. Relative to /public. */
-  headshotNoBgImageSrc: "/images/agent/1255330_no_bg.jpg", 
+  /** @type {string} URL for the standard agent headshot from AWS. */
+  headshotImageSrc: "https://salesgenius.s3.ca-central-1.amazonaws.com/websiteimages/headshot-1255330.jpg",
+  /** @type {string} URL for the agent headshot with no background (constructed from AWS URL). */
+  headshotNoBgImageSrc: "https://salesgenius.s3.ca-central-1.amazonaws.com/websiteimages/headshot-1255330_no_bg.jpg",
   /**
    * @description List of social media profiles for the footer.
    * @type {Array<{name: string, url: string, iconClass: string}>}
